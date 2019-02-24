@@ -10,12 +10,18 @@
           var y = Math.pow(x, 3);
           window.alert("El resultado de: " + x + " al cubo es: " + y);
         }
+		function elevadoA4() {
+          var x = document.getElementById("valor").value;
+          var y = Math.pow(x, 4);
+          window.alert("El resultado de: " + x + " a la cuarta es: " + y);
+        }
 		</script>
     </head>
     <body>
         <div>
             <input id="valor" type="text"/>
             <input type="button" value="x^3" onclick="elevadoA3()"/>
+			<input type="button" value="x^4" onclick="elevadoA4()"/>
         </div>
     </body>
 </html>
