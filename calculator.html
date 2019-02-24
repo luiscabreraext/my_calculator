@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto de prueba my_calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+        function elevadoA3() {
+          var x = document.getElementById("valor").value;
+          var y = Math.pow(x, 3);
+          window.alert("El resultado de: " + x + " al cubo es: " + y);
+        }
+		</script>
+    </head>
+    <body>
+        <div>
+            <input id="valor" type="text"/>
+            <input type="button" value="x^3" onclick="elevadoA3()"/>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+Proyecto creado para completar el trabajo obligatorio del tema 1 del curso: "Gestión de proyectos Software con Git y GitHub (2.ª edición)"
